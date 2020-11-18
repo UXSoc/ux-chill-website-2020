@@ -265,8 +265,8 @@ section.speakers h2 {
 
 .speaker-category {
   font-family: "Rubik", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: 700;
   letter-spacing: 0.05em;
   color: #4ecca8;
   margin-bottom: 6px;
@@ -274,8 +274,8 @@ section.speakers h2 {
 }
 
 .speaker-name {
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 1.25rem;
   letter-spacing: 0.05em;
   margin-bottom: 7px;
   color: white;
