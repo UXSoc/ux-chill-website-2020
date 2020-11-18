@@ -55,11 +55,22 @@ img {
   text-decoration: none;
 }
 
+.primary-btn:hover, .secondary-btn:hover {
+  border: 1px solid #7A599E;
+  color: #7A599E;
+  background-color: #eeeeee;
+}
+
 .secondary-btn {
   border: 1px solid #7A599E;
   color: #7A599E;
   background-color: #eeeeee;
   margin-left: 0.64rem;
+}
+
+.secondary-btn:hover {
+  color: white;
+  background-color: #7A599E;
 }
 
 /* font-family: 'Rubik', sans-serif; */
@@ -99,6 +110,14 @@ section.hero .container {
   letter-spacing: 1.2px;
 }
 
+.hero__nav .navbar a:hover {
+  color: #7A599E;
+  font-weight: 700;
+  position: relative;
+  border-bottom: 2px solid #7A599E;
+  padding-bottom: 1rem;
+}
+
 .hero__nav .navbar a.header-button {
   background-color: #7A599E;
   color: white;
@@ -106,6 +125,12 @@ section.hero .container {
   padding: 0.8rem 1.25rem;
   border-radius: 4px;
   margin-right: 0;
+}
+
+.hero__nav .navbar a.header-button:hover {
+  border: none;
+  padding: 1rem 1.563rem;
+  cursor: pointer;
 }
 
 .hero__cta {
@@ -207,7 +232,7 @@ section.speakers {
           justify-content: center;
 }
 
-section.speakers h2 {
+h2 {
   font-size: 1.563rem;
   letter-spacing: 0.05em;
   font-family: "Rubik", sans-serif;
@@ -218,25 +243,23 @@ section.speakers h2 {
 }
 
 .speaker-collection {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1100px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  /* grid-template-columns: repeat(3, 333px);
-  grid-gap: 52px 21px; */
 }
 
 .speaker-card {
-  width: 333px;
-  padding: 37px 35px 27px;
+  width: 250px;
+  padding: 1rem;
   border-radius: 4px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -251,16 +274,8 @@ section.speakers h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
+  margin-top: 1rem;
   text-align: center;
-}
-
-.speaker-width {
-  width: 333px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .speaker-category {
