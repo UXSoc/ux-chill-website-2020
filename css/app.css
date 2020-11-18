@@ -198,7 +198,7 @@ h1 span.gradient {
 section.speakers {
   padding-top: 90px;
   padding-bottom: 168px;
-  background-color: #028ed3;
+  background-color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,12 +208,13 @@ section.speakers {
 }
 
 section.speakers h2 {
-  font-size: 40px;
+  font-size: 2.441rem;
   letter-spacing: 0.05em;
   font-family: "Rubik", sans-serif;
-  color: #ffffff;
+  color: #828282;
   margin-bottom: 8px;
   text-align: center;
+  font-weight: 700;
 }
 
 .speaker-collection {
@@ -235,11 +236,14 @@ section.speakers h2 {
 
 .speaker-card {
   width: 333px;
-  background-color: white;
   padding: 37px 35px 27px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,6 +254,7 @@ section.speakers h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  text-align: center;
 }
 
 .speaker-width {
@@ -273,7 +278,7 @@ section.speakers h2 {
   font-size: 24px;
   letter-spacing: 0.05em;
   margin-bottom: 7px;
-  color: #333333;
+  color: white;
 }
 
 .speaker-description {
@@ -738,7 +743,7 @@ footer .right svg {
 }
 
 .hero-img-right {
-  width: 22vw;
+  width: 25vw;
 }
 
 .img-left {
