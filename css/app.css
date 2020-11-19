@@ -46,7 +46,8 @@ img {
   max-width: 100%;
 }
 
-.primary-btn, .secondary-btn {
+.primary-btn,
+.secondary-btn {
   background-color: #7A599E;
   color: white;
   font-weight: 500;
@@ -55,7 +56,8 @@ img {
   text-decoration: none;
 }
 
-.primary-btn:hover, .secondary-btn:hover {
+.primary-btn:hover,
+.secondary-btn:hover {
   border: 1px solid #7A599E;
   color: #7A599E;
   background-color: #eeeeee;
@@ -163,12 +165,12 @@ h1 {
 }
 
 h1 span.gradient {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-size: 3.052rem;
   line-height: 55px;
   font-weight: 700;
   color: #4ecca8;
-  background-image: -webkit-linear-gradient(360deg, #73CEAF, #7A599E);
+  background-image: -webkit-linear-gradient(360deg, #73ceaf, #7a599e);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -222,7 +224,7 @@ h1 span.gradient {
 
 /* speaker */
 section.speakers {
-  padding-top: 90px;
+  padding-top: 3.815rem;
   padding-bottom: 168px;
   background-color: #333333;
   display: -webkit-box;
@@ -238,6 +240,7 @@ h2 {
   letter-spacing: 0.05em;
   font-family: "Rubik", sans-serif;
   color: #828282;
+  opacity: 0.5;
   margin-bottom: 8px;
   text-align: center;
   font-weight: 700;
@@ -323,6 +326,102 @@ h2 {
 
 .speaker-learn:hover {
   background-color: rgba(78, 204, 168, 0.85);
+}
+
+.schedule {
+  padding-top: 3.815rem;
+}
+
+.schedule .day-schedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.schedule .day-schedule .date-details {
+  margin: 1.563rem 0;
+}
+
+.schedule .day-schedule .date-details .date-day {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 1.563rem;
+}
+
+.schedule .day-schedule .talks {
+  width: 80%;
+}
+
+.schedule .day-schedule .talks .talk-details {
+  margin: 1.563rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fcfcfc;
+  -webkit-box-shadow: 0px 4px 10px rgba(147, 147, 147, 0.1);
+          box-shadow: 0px 4px 10px rgba(147, 147, 147, 0.1);
+  border-radius: 8px;
+  padding: 1.953rem 2.441rem;
+}
+
+.schedule .day-schedule .talks .talk-details .topic-time {
+  color: #bdbdbd;
+  margin: 0.512rem 0;
+}
+
+.schedule .day-schedule .talks .talk-details .topic-title {
+  font-weight: 800;
+  color: #4f4f4f;
+  margin: 0.512rem 0;
+}
+
+.schedule .day-schedule .talks .talk-details .topic-category {
+  border: 1px solid #73CEAF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 0.512rem 1rem;
+  color: #73CEAF;
+  font-size: 0.8rem;
+  margin: 0.512rem 0;
+}
+
+.schedule .day-schedule .talks .talk-details .speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
+  max-width: 5.96rem;
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+
+.schedule .day-schedule .talks .talk-details .speaker .speaker-details .speaker-name {
+  color: #828282;
+  font-weight: 700;
+}
+
+.schedule .day-schedule .talks .talk-details .speaker .speaker-details img {
+  display: block;
+  max-width: 3.815rem;
+  height: auto;
+  width: 100%;
 }
 
 /* closing */
