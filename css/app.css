@@ -170,6 +170,7 @@ h1 span.gradient {
   color: #4ecca8;
   background-image: -webkit-linear-gradient(360deg, #73CEAF, #7A599E);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -283,14 +284,14 @@ h2 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #4ecca8;
+  color: #73CEAF;
   margin-bottom: 6px;
   text-transform: uppercase;
 }
 
 .speaker-name {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 0.05em;
   margin-bottom: 7px;
   color: white;
