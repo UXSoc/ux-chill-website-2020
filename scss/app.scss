@@ -351,6 +351,65 @@ h2 {
   }
 }
 
+// faq
+
+.bottom {
+  background-color: white;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.815rem;
+
+  h2 {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  .left {
+    margin: 1.563rem;
+    max-width: 600px;
+
+    [data-accordion-element-content] {
+      height: auto;
+      overflow: hidden;
+      transition: height .5s;
+      /** will-change: height; **/
+    }
+    .question {
+      border-bottom: 1px solid $fontColor;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      color: 828282;
+      /** will-change: height; **/
+    
+      span {
+        transform: rotate(90deg);
+        cursor: pointer;
+        font-size: 1.25rem;
+      }
+    }
+    
+    .answer {
+      color: #4F4F4F;
+      margin: 1rem 0;
+    }
+
+  }
+
+
+  img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+}
+
+
+
 /* closing */
 
 .closing .message {
