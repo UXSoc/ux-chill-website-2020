@@ -237,7 +237,7 @@ section.speakers {
 
 h2 {
   font-size: 1.563rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 2px;
   font-family: "Rubik", sans-serif;
   color: #828282;
   opacity: 0.5;
@@ -329,7 +329,7 @@ h2 {
 }
 
 .schedule {
-  padding-top: 3.815rem;
+  padding: 3.815rem 0;
 }
 
 .schedule .day-schedule {
@@ -461,7 +461,7 @@ h2 {
 }
 
 .faq .left .question {
-  border-bottom: 1px solid #828282;
+  border-bottom: 1px solid #E0E0E0;
   padding: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,10 +485,35 @@ h2 {
   margin: 1rem 0;
 }
 
-.faq img {
+.sponsors {
+  padding: 2.441rem;
+}
+
+.sponsors h2 {
+  margin-bottom: 3rem;
+}
+
+.sponsors img {
   width: 100%;
   max-width: 450px;
   height: auto;
+}
+
+.sponsors .logos {
+  margin: 1.563rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sponsors svg {
+  margin-right: 32px;
 }
 
 /* closing */
@@ -664,23 +689,24 @@ footer .left a {
   font-weight: 600;
 }
 
+footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 footer .right p {
   margin-bottom: 12px;
   color: #4f4f4f;
   letter-spacing: 0.05em;
 }
 
-footer .right .logos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .right svg {
-  margin-right: 32px;
+footer .right a {
+  margin-left: auto;
 }
 
 /* modal styles */
