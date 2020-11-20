@@ -106,7 +106,7 @@ section.hero .container {
 }
 
 .hero__nav .navbar a {
-  margin: 0 2rem;
+  margin: 0 1rem;
   color: #4F4F4F;
   text-decoration: none;
   letter-spacing: 1.2px;
@@ -667,6 +667,10 @@ footer .left p {
   color: #333333;
 }
 
+footer .left p a {
+  display: block;
+}
+
 footer .left a {
   text-decoration: none;
   color: #028ed3;
@@ -1006,8 +1010,13 @@ footer .right a {
   .container {
     max-width: 800px !important;
   }
+  .container .main-text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .hero__nav .navbar a {
-    margin: 0 1rem;
+    margin: 0 0.64rem;
   }
 }
 
@@ -1057,7 +1066,7 @@ footer .right a {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 605px) {
   .container {
     max-width: 500px !important;
   }
