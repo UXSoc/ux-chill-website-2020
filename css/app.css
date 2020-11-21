@@ -207,9 +207,14 @@ h1 span.gradient {
   margin: 1rem 0 2rem;
 }
 
+.hero-img-left,
 .hero-img-right {
   position: absolute;
   bottom: -15%;
+}
+
+.hero-img-left {
+  width: 455px;
 }
 
 .hero-img-right {
@@ -418,17 +423,12 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 3.815rem;
-  position: relative;
 }
 
 .faq h2 {
   font-weight: 700;
   text-align: left;
   margin-bottom: 3rem;
-}
-
-.faq h2 img {
-  display: none;
 }
 
 .faq .left {
@@ -985,317 +985,178 @@ footer .right a {
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
-    max-width: 1000px !important;
-  }
-  .speaker-collection {
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .speaker-card {
-    width: 200px;
-  }
-  .hero .main-text img {
-    width: 350px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .container {
-    max-width: 800px !important;
-  }
-  .hero__nav .navbar a {
-    margin: 0 1rem;
-  }
-  .modal__container {
-    padding: 2rem;
-  }
-  .modal__container .person {
-    margin-right: 1rem;
-  }
-}
-
 @media screen and (max-width: 850px) {
-  .container {
-    max-width: 600px !important;
+  .hero__nav {
+    padding: 20px 40px;
   }
-  .hero__nav .navbar {
-    display: none;
+  .hero-img-right {
+    bottom: -6%;
   }
-  .hero__nav .navbar a {
-    margin: 0 1rem;
+  .hero-img-left {
+    bottom: auto;
+    top: 10%;
   }
-  .hero .main-text img {
-    display: none;
+  .hero .main-text {
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
-  .modal__container {
-    padding: 2rem;
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .closing .message button {
+    margin-left: 6vw;
   }
   .modal__container .main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .modal__container .person {
-    margin: 1.563rem 1rem;
-  }
-  .speaker-collection {
-    max-width: 600px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .speaker-card {
-    width: 200px;
-  }
-  .faq {
-    position: relative;
     display: block;
   }
-  .faq h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: rgba(130, 130, 130, 0.5);
-    margin: 0;
-    opacity: 1;
+  .modal__container .person {
+    margin: auto;
   }
-  .faq h2 img {
-    display: inline-block;
-    opacity: 1;
+  .modal__container {
+    max-height: 90vh;
   }
-  .faq img {
-    max-width: 200px;
-    display: none;
+  section.speakers {
+    padding-top: 70px;
+  }
+  section.speakers h2 {
+    margin-bottom: 8px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .container {
-    max-width: 500px !important;
-  }
   .speaker-collection {
-    max-width: 500px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 70vw;
+    margin: auto 15vw;
   }
-  .speaker-card {
-    width: 200px;
-    margin: 0.8rem 1.25rem;
-  }
-  .schedule {
-    padding: 3.815rem 0;
-  }
-  .schedule .day-schedule {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .schedule .day-schedule .date-details .date-complete {
-    display: inline-block;
-  }
-  .schedule .day-schedule .date-details .date-complete:nth-child(2)::after {
-    content: ",";
-  }
-  .schedule .day-schedule .talks {
-    width: 100%;
-  }
-  .schedule .day-schedule .talks .talk-details {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker {
-    margin-top: 1.98rem;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
-    margin-left: 0;
-  }
-  .sponsors {
-    padding: 1rem;
-  }
-  .sponsors .logos {
-    margin: 1rem;
-  }
-  footer {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 1rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  footer .right {
-    margin-bottom: 2rem;
-  }
-  footer .right p {
-    margin-bottom: 12px;
-    color: #4f4f4f;
-    letter-spacing: 0.05em;
-    font-size: 1.563rem;
-  }
-  footer .right a {
-    margin: 0 auto;
-    font-size: 1.25rem;
-    font-weight: 500;
-    letter-spacing: 1.2px;
-    text-align: center;
-    display: block;
-    max-width: 280px;
-  }
-  footer .left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 100%;
-  }
-  footer .left a {
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .container {
-    max-width: 450px !important;
+  .speaker-card,
+  .speaker-width {
+    width: 70vw;
   }
   .modal__container {
-    padding: 1rem;
+    padding-bottom: 30px;
     width: 90vw;
   }
   .modal__container .main {
-    padding: 1rem;
+    padding: 0px 30px;
   }
-  .speaker-collection {
-    max-width: 450px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .hero .main-text {
+    padding-top: 20vh;
   }
-  .speaker-card {
-    margin: 0.64rem;
-    width: 150px;
-    padding: 0;
+  section.speakers h2 {
+    padding-left: 5vw;
+  }
+  .hero__nav {
+    padding: 20px 20px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .container {
-    max-width: 350px !important;
+@media screen and (max-width: 500px) {
+  footer {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  .modal__container .main .person div {
-    width: 175px !important;
-    height: 175px !important;
-    background-size: 175px !important;
-  }
-  .modal__container .main .details p {
-    font-size: 0.8rem;
-  }
-  .speaker-collection {
-    max-width: 350px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .speaker-card {
-    margin: 0.64rem;
-    width: 150px;
-    padding: 0;
+  .right {
+    margin-top: 30px;
   }
 }
 
-@media screen and (max-width: 380px) {
-  .container {
-    max-width: 320px !important;
+@media screen and (max-width: 420px) {
+  section.hero {
+    padding-bottom: 100px;
+  }
+  section.speakers {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .speaker-description {
+    margin-bottom: 25px;
   }
   .speaker-collection {
-    max-width: 320px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    width: 90vw;
+    margin: auto 5vw;
   }
   .speaker-card {
-    margin: 0.64rem;
+    margin-top: 30px;
+  }
+  .speaker-card,
+  .speaker-width {
+    width: 90vw;
+  }
+  .hero-img-left {
     width: 150px;
-    padding: 0;
+    top: 100px;
   }
-  footer .left {
-    width: 90%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 1.563rem;
+  .hero-img-right {
+    width: 85px;
+    bottom: -20px;
+    right: 0px;
   }
-  footer .left a {
-    display: inline-block;
+  .hero .main-text {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  h1 {
+    font-size: 27px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  h1 span.gradient {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .main-text .event-details {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .hero .main-text {
+    padding-top: 150px;
+  }
+  .closing .message {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    min-height: auto;
+    padding: 70px 0px 50px 0px;
+  }
+  .closing .message p {
+    width: 60vw;
+    font-size: 20px;
+    padding-left: 5vw;
+  }
+  .img-rightd {
+    top: 0px;
+  }
+  .img-closing.img-right {
+    top: -40px;
+    width: 30vw;
+  }
+  .img-closing.img-left {
+    top: -100px;
+    width: 40vw;
+  }
+  .hero__cta {
+    padding: 16px;
+  }
+  .closing .message button {
+    padding: 16px 20px;
+  }
+  .gmap_canvas iframe,
+  .gmap_canvas {
+    width: 90vw;
   }
 }
 
-@media screen and (max-width: 340px) {
-  .main-text div div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .main-text div div a {
-    margin: 0.64rem 0;
-  }
-  .container {
-    max-width: 300px !important;
-  }
-  .speaker-collection {
-    max-width: 300px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .speaker-card {
-    margin: 0.64rem;
+@media screen and (max-width: 385px) {
+  .hero__nav svg {
     width: 150px;
-    padding: 0;
   }
-  footer .left {
-    width: 90%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 1.563rem;
-  }
-  footer .left a {
-    display: inline-block;
+  .hero__cta {
+    padding: 10px;
   }
 }
