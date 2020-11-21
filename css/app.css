@@ -282,6 +282,10 @@ h2 {
   text-align: center;
 }
 
+.speaker-card div {
+  cursor: pointer;
+}
+
 .speaker-category {
   font-family: "Rubik", sans-serif;
   font-size: 0.8rem;
@@ -306,26 +310,6 @@ h2 {
   letter-spacing: 0.05em;
   color: #333333;
   margin-bottom: 32px;
-}
-
-.speaker-learn {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  letter-spacing: 0.05em;
-  background-color: #4ecca8;
-  border-radius: 4px;
-  color: white;
-  border: 0;
-  padding: 15px 20px;
-  cursor: pointer;
-  margin-top: auto;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-}
-
-.speaker-learn:hover {
-  background-color: rgba(78, 204, 168, 0.85);
 }
 
 .schedule {
@@ -737,8 +721,7 @@ footer .right a {
   max-height: 100vh;
   border-radius: 4px;
   overflow-y: auto;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 2rem;
   z-index: 5;
   width: 80vw;
   max-width: 864px;
@@ -775,9 +758,9 @@ footer .right a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .modal__container .person {
@@ -808,6 +791,7 @@ footer .right a {
   letter-spacing: 0.05em;
   margin-bottom: 16px;
   color: #333333;
+  text-align: center;
 }
 
 .modal__container .details {
