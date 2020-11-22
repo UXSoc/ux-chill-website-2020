@@ -912,15 +912,18 @@ footer .right a {
           animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 
+
 .micromodal-slide[aria-hidden='false'] .modal__container {
   -webkit-animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 
+
 .micromodal-slide[aria-hidden='true'] .modal__overlay {
   -webkit-animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
+
 
 .micromodal-slide[aria-hidden='true'] .modal__container {
   -webkit-animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
