@@ -521,12 +521,31 @@
     }
   }
   .container {
-    max-width: 300px !important;
+    max-width: 280px !important;
+  }
+
+  .hero {
+    .main-text {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+    
+      .main {
+        font-size: 1rem;
+        span {
+          font-size: 2.441rem;
+        }
+      }
+
+      .event-description {
+        font-size: 1rem;
+      }
+    }
   }
 
 
   .speaker-collection {
-    max-width: 300px;
+    max-width: 280px;
     justify-content: space-evenly;
   }
 
