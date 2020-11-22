@@ -183,9 +183,6 @@ h1 span.gradient {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 100px;
 }
 
@@ -292,7 +289,6 @@ h2 {
   color: #73CEAF;
   margin-bottom: 6px;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .speaker-name {
@@ -356,10 +352,6 @@ h2 {
   padding: 1.953rem 2.441rem;
 }
 
-.schedule .day-schedule .talks .talk-details .topic {
-  max-width: 350px;
-}
-
 .schedule .day-schedule .talks .talk-details .topic-time {
   color: #bdbdbd;
   margin: 0.512rem 0;
@@ -390,7 +382,6 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 350px;
 }
 
 .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
@@ -410,7 +401,6 @@ h2 {
   max-width: 3.815rem;
   height: auto;
   width: 100%;
-  margin: 0.64rem 0;
 }
 
 .bottom {
@@ -1005,7 +995,7 @@ footer .right a {
         justify-content: space-around;
   }
   .speaker-card {
-    width: 300px;
+    width: 200px;
   }
   .hero .main-text img {
     width: 350px;
@@ -1024,18 +1014,6 @@ footer .right a {
   }
   .modal__container .person {
     margin-right: 1rem;
-  }
-  .schedule .day-schedule .talks .talk-details .topic {
-    max-width: 250px;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 300px;
   }
 }
 
@@ -1077,28 +1055,6 @@ footer .right a {
   }
   .speaker-card {
     width: 200px;
-  }
-  .schedule .day-schedule {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .schedule .day-schedule .talks {
-    width: 100%;
-  }
-  .schedule .day-schedule .talks .talk-details {
-    margin: 1rem;
-    padding: 2rem;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker {
-    width: 250px;
-  }
-  .schedule .day-schedule .talks .talk-details .topic {
-    max-width: 250px;
   }
   .faq {
     position: relative;
@@ -1171,13 +1127,9 @@ footer .right a {
   }
   .schedule .day-schedule .talks .talk-details .speaker {
     margin-top: 1.98rem;
-    width: 300px;
   }
   .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
     margin-left: 0;
-  }
-  .schedule .day-schedule .talks .talk-details .topic {
-    max-width: 350px;
   }
   .sponsors {
     padding: 1rem;
@@ -1275,12 +1227,6 @@ footer .right a {
     width: 150px;
     padding: 0;
   }
-  .schedule .day-schedule .talks .talk-details .speaker {
-    width: 280px;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
-    max-width: 5rem;
-  }
 }
 
 @media screen and (max-width: 380px) {
@@ -1297,15 +1243,6 @@ footer .right a {
     margin: 0.64rem;
     width: 150px;
     padding: 0;
-  }
-  .schedule .day-schedule .talks .talk-details {
-    margin: 1rem 0;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker {
-    width: 250px;
-  }
-  .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
-    max-width: 3.5rem;
   }
   footer .left {
     width: 90%;
