@@ -249,29 +249,27 @@
 
 }
 @media screen and (max-width: 520px) {
-  .container {
-    max-width: 450px !important;
-  }
+	.container {
+		max-width: 450px !important;
+	}
 
-  .modal__container {
-    padding: 1rem;
-    width: 90vw;
-    .main {
-      padding: 1rem;
-      
-    }
-  }
-  .speaker-collection {
-    max-width: 450px;
-    justify-content: space-evenly;
-  }
+	.modal__container {
+		padding: 1rem;
+		width: 90vw;
+		.main {
+			padding: 1rem;
+		}
+	}
+	.speaker-collection {
+		max-width: 450px;
+		justify-content: space-evenly;
+	}
 
-  .speaker-card {
-    margin: 0.64rem;
-    width: 150px;
-    padding: 0;
-  }
-
+	.speaker-card {
+		margin: 0.64rem;
+		width: 150px;
+		padding: 0;
+	}
 }
 @media screen and (max-width: 480px) {
   .container {
@@ -379,66 +377,62 @@
 
 }
 @media screen and (max-width: 340px) {
+	.main-text {
+		div {
+			div {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
 
-  .main-text {
-    div {
-      div {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+				a {
+					margin: 0.64rem 0;
+				}
+			}
+		}
+	}
+	.container {
+		max-width: 280px !important;
+	}
 
-        a {
-          margin: 0.64rem 0;
-        }
-      }
-    }
-  }
-  .container {
-    max-width: 280px !important;
-  }
+	.hero {
+		.main-text {
+			display: flex;
+			justify-content: center;
+			padding-top: 100px;
 
-  .hero {
-    .main-text {
-      display: flex;
-      justify-content: center;
-      padding-top: 100px;
-    
-      .main {
-        font-size: 1rem;
-        span {
-          font-size: 2.441rem;
-        }
-      }
+			.main {
+				font-size: 1rem;
+				span {
+					font-size: 2.441rem;
+				}
+			}
 
-      .event-description {
-        font-size: 1rem;
-      }
-    }
-  }
+			.event-description {
+				font-size: 1rem;
+			}
+		}
+	}
 
+	.speaker-collection {
+		max-width: 280px;
+		justify-content: space-evenly;
+	}
 
-  .speaker-collection {
-    max-width: 280px;
-    justify-content: space-evenly;
-  }
+	.speaker-card {
+		margin: 0.64rem;
+		width: 150px;
+		padding: 0;
+	}
 
-  .speaker-card {
-    margin: 0.64rem;
-    width: 150px;
-    padding: 0;
-  }
+	footer {
+		.left {
+			width: 90%;
+			flex-direction: column;
+			margin: 1.563rem;
 
-  footer {
-
-      .left {
-          width: 90%;
-          flex-direction: column;
-          margin: 1.563rem;
-
-          a {
-              display: inline-block;
-          }
-      }
-  }
-
+			a {
+				display: inline-block;
+			}
+		}
+	}
 }
