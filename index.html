@@ -64,34 +64,6 @@
 			gtag('config', 'UA-151954100-1')
 		</script>
 		<!-- SDK -->
-		<div id="fb-root"></div>
-		<script>
-			window.fbAsyncInit = function () {
-				FB.init({
-					xfbml: true,
-					version: 'v6.0',
-				})
-			}
-			;(function (d, s, id) {
-				var js,
-					fjs = d.getElementsByTagName(s)[0]
-				if (d.getElementById(id)) return
-				js = d.createElement(s)
-				js.id = id
-				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js'
-				fjs.parentNode.insertBefore(js, fjs)
-			})(document, 'script', 'facebook-jssdk')
-		</script>
-
-		<!-- Chat Code -->
-		<div
-			class="fb-customerchat"
-			attribution="install_email"
-			page_id="458443124337690"
-			theme_color="#04a0e8"
-			logged_in_greeting="Hi! How can we help you? We are User Experinece Society, a student-run organization that advocates and practices human-centered design"
-			logged_out_greeting="Hi! Thank you very much for visiting the official website of UX&Chill 2020."
-		></div>
 	</head>
 	<body>
 		<main>
@@ -1302,6 +1274,34 @@
 				</footer>
 			</div>
 		</main>
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function () {
+				FB.init({
+					xfbml: true,
+					version: 'v6.0',
+				})
+			}
+			;(function (d, s, id) {
+				var js,
+					fjs = d.getElementsByTagName(s)[0]
+				if (d.getElementById(id)) return
+				js = d.createElement(s)
+				js.id = id
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js'
+				fjs.parentNode.insertBefore(js, fjs)
+			})(document, 'script', 'facebook-jssdk')
+		</script>
+
+		<!-- Chat Code -->
+		<div
+			class="fb-customerchat"
+			attribution="install_email"
+			page_id="458443124337690"
+			theme_color="#04a0e8"
+			logged_in_greeting="Hi! How can we help you? We are User Experinece Society, a student-run organization that advocates and practices human-centered design"
+			logged_out_greeting="Hi! Thank you very much for visiting the official website of UX&Chill 2020."
+		></div>
 		<script src="./micromodal.min.js"></script>
 		<script src="./smooth-scroll.polyfills.min.js"></script>
 		<script src="./smooth-scroll.min.js"></script>
