@@ -1274,10 +1274,28 @@ footer .right a {
     margin: 0.64rem 0;
   }
   .container {
-    max-width: 300px !important;
+    max-width: 280px !important;
+  }
+  .hero .main-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 100px;
+  }
+  .hero .main-text .main {
+    font-size: 1rem;
+  }
+  .hero .main-text .main span {
+    font-size: 2.441rem;
+  }
+  .hero .main-text .event-description {
+    font-size: 1rem;
   }
   .speaker-collection {
-    max-width: 300px;
+    max-width: 280px;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
