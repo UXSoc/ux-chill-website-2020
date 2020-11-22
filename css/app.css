@@ -26,7 +26,7 @@ ul {
 html,
 body {
   font-size: 100%;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
@@ -138,7 +138,7 @@ section.hero .container {
 .hero__cta {
   font-size: 16px;
   font-weight: bold;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   padding: 16px 24px;
   background-color: #028ed3;
   color: white;
@@ -156,7 +156,7 @@ section.hero .container {
 
 h1 {
   color: #4f4f4f;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: normal;
   font-size: 40px;
   line-height: 58px;
@@ -165,7 +165,7 @@ h1 {
 }
 
 h1 span.gradient {
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   font-size: 3.052rem;
   line-height: 55px;
   font-weight: 700;
@@ -236,7 +236,7 @@ section.speakers {
 h2 {
   font-size: 1.563rem;
   letter-spacing: 2px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #828282;
   opacity: 0.5;
   margin-bottom: 8px;
@@ -449,13 +449,13 @@ h2 {
 .faq .left [data-accordion-element-content] {
   height: auto;
   overflow: hidden;
-  -webkit-transition: height .5s;
-  transition: height .5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
   /** will-change: height; **/
 }
 
 .faq .left .question {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   padding: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,7 +475,7 @@ h2 {
 }
 
 .faq .left .answer {
-  color: #4F4F4F;
+  color: #4f4f4f;
   margin: 1rem 0;
 }
 
@@ -532,7 +532,7 @@ h2 {
 
 .closing .message button {
   font-weight: bold;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   padding: 16px 48px;
   letter-spacing: 0.05em;
@@ -905,22 +905,22 @@ footer .right a {
   display: block;
 }
 
-.micromodal-slide[aria-hidden="false"] .modal__overlay {
+.micromodal-slide[aria-hidden='false'] .modal__overlay {
   -webkit-animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.micromodal-slide[aria-hidden="false"] .modal__container {
+.micromodal-slide[aria-hidden='false'] .modal__container {
   -webkit-animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.micromodal-slide[aria-hidden="true"] .modal__overlay {
+.micromodal-slide[aria-hidden='true'] .modal__overlay {
   -webkit-animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.micromodal-slide[aria-hidden="true"] .modal__container {
+.micromodal-slide[aria-hidden='true'] .modal__container {
   -webkit-animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
           animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
