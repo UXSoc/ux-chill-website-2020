@@ -280,7 +280,9 @@ h2 {
         border-radius: 8px;
         padding: 1.953rem 2.441rem;
         
-  
+        .topic {
+          max-width: 350px;
+        }
         .topic-time {
           color: #bdbdbd;
           margin: 0.512rem 0;
@@ -306,6 +308,7 @@ h2 {
         .speaker {
           display: flex;
           align-items: center;
+          width: 350px;
   
           .speaker-photo {
             max-width: 5.96rem;

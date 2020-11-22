@@ -355,6 +355,10 @@ h2 {
   padding: 1.953rem 2.441rem;
 }
 
+.schedule .day-schedule .talks .talk-details .topic {
+  max-width: 350px;
+}
+
 .schedule .day-schedule .talks .talk-details .topic-time {
   color: #bdbdbd;
   margin: 0.512rem 0;
@@ -385,6 +389,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 350px;
 }
 
 .schedule .day-schedule .talks .talk-details .speaker .speaker-photo {
