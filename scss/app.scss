@@ -143,6 +143,7 @@ h1 span.gradient {
 .hero .main-text {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 100px;
 
   .main {
@@ -230,6 +231,7 @@ h2 {
   color: $mint;
   margin-bottom: 6px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .speaker-name {
@@ -279,7 +281,9 @@ h2 {
         border-radius: 8px;
         padding: 1.953rem 2.441rem;
         
-  
+        .topic {
+          max-width: 350px;
+        }
         .topic-time {
           color: #bdbdbd;
           margin: 0.512rem 0;
@@ -305,6 +309,7 @@ h2 {
         .speaker {
           display: flex;
           align-items: center;
+          width: 350px;
   
           .speaker-photo {
             max-width: 5.96rem;
@@ -314,6 +319,7 @@ h2 {
           }
   
           .speaker-details {
+
             .speaker-name {
               color: $fontColor;
               font-weight: 700;
@@ -324,6 +330,7 @@ h2 {
               max-width: 3.815rem;
               height: auto;
               width: 100%;
+              margin: 0.64rem 0;
             }
           }
         }
